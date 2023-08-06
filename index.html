@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GRAYSON</title>
   <link rel="stylesheet" href="style/all.min.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style/footer.css">
   <link rel="stylesheet" href="style/main/section-bottom.css">
   <link rel="stylesheet" href="style/main/section-center.css">
@@ -18,28 +19,62 @@
 
 <body>
   <header>
-    <div class="header__courpus container">
-      <nav class="header__nav">
-        <div class="header__nav-logo">
+
+    <div class="header__courpus ">
+      <nav class=" container header__nav navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#!">
           <img src="iamges/Logo_black.png" alt="logo">
+        </a>
+        <div class="header__nav-space ">
+          <!--container-fluid-->
+
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="header__nav-list navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="header__nav-link nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link nav-link" href="#">PAGES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="header__nav-link nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  PORTFOLIO
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="header__nav-link dropdown-item" href="#">SHOP</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="header__nav-link dropdown-item" href="#">FASHION</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="header__nav-link dropdown-item" href="#">GALLERY</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link nav-link active" aria-current="page" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="header__nav-link nav-link active" aria-current="page" href="#">SHORTCODES</a>
+              </li>
+            </ul>
+
+          </div>
+
         </div>
-
-        <ul class="header__nav-list">
-          <li><a href="#!" class="header__nav-link">HOME</a></li>
-          <li><a href="#!" class="header__nav-link">PAGES</a></li>
-          <li><a href="#!" class="header__nav-link">PORTFOLIO</a></li>
-          <li><a href="#!" class="header__nav-link">BLOG</a></li>
-          <li><a href="#!" class="header__nav-link">ABOUT</a></li>
-          <li><a href="#!" class="header__nav-link">SHORTCODES</a></li>
-        </ul>
-
-        <form class="header__nav-find" role="Поиск">
-          <input type="text" class="header__find-input" placeholder="Search">
-          <button type="submit" class="header__find-btn">
-            <i class="fa-solid fa-magnifying-glass header__find-icon"></i>
-          </button>
-        </form>
-
+        <div class="group-search">
+          <form class="d-flex">
+            <input class="form-input me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
       </nav>
     </div>
     <div class="header__courpus-bottom">
@@ -50,7 +85,7 @@
       <h2 class="header__bottom-text-title">
         Grayson Collection
       </h2>
-      <div class="header__bottom-btn btn">
+      <div class="header__bottom-btn btn-my">
         SHOP NOW
       </div>
     </div>
@@ -136,11 +171,10 @@
               <img src="iamges/bottom-1 (1).jpg" alt="photo" class="section-photo__first-img">
             </a>
             <div class="section-photo__first-box_items">
-              <div class="section-bottom__photo_icons-uno">
+              <div class="section-bottom__photo-icons_uno">
                 <i class="fa-solid fa-cart-shopping section-bottom__icons-uno_icon"></i>
                 <h4 class="section-bottom__icons-uno_title">ADD TO CART</h4>
-              </div>
-              <div class="section-bottom__photo_icons-du">
+
                 <i class="fa-regular fa-heart section-bottom__icons-du_icon-heaer"></i>
                 <i class="fa-regular fa-eye section-bottom__icons-du_icon-eyes"></i>
               </div>
@@ -157,11 +191,10 @@
               <img src="iamges/bottom-2.jpg" alt="photo" class="section-photo__second">
             </a>
             <div class="section-photo__second-box_items">
-              <div class="section-bottom__photo_icons-uno">
+              <div class="section-bottom__photo-icons_uno">
                 <i class="fa-solid fa-cart-shopping section-bottom__icons-uno_icon"></i>
                 <h4 class="section-bottom__icons-uno_title">ADD TO CART</h4>
-              </div>
-              <div class="section-bottom__photo_icons-du">
+
                 <i class="fa-regular fa-heart section-bottom__icons-du_icon-heaer"></i>
                 <i class="fa-regular fa-eye section-bottom__icons-du_icon-eyes"></i>
               </div>
@@ -179,11 +212,10 @@
               <img src="iamges/bottom-3.jpg" alt="photo" class="section__photo-third">
             </div>
             <div class="section-photo__third-box_items">
-              <div class="section-bottom__photo_icons-uno">
+              <div class="section-bottom__photo-icons_uno">
                 <i class="fa-solid fa-cart-shopping section-bottom__icons-uno_icon"></i>
                 <h4 class="section-bottom__icons-uno_title">ADD TO CART</h4>
-              </div>
-              <div class="section-bottom__photo_icons-du">
+
                 <i class="fa-regular fa-heart section-bottom__icons-du_icon-heaer"></i>
                 <i class="fa-regular fa-eye section-bottom__icons-du_icon-eyes"></i>
               </div>
@@ -201,11 +233,10 @@
               <img src="iamges/bottom-4.jpg" alt="photo" class="section__photo-fourth">
             </div>
             <div class="section-photo__fourth-box_items">
-              <div class="section-bottom__photo_icons-uno">
+              <div class="section-bottom__photo-icons_uno">
                 <i class="fa-solid fa-cart-shopping section-bottom__icons-uno_icon"></i>
                 <h4 class="section-bottom__icons-uno_title">ADD TO CART</h4>
-              </div>
-              <div class="section-bottom__photo_icons-du">
+
                 <i class="fa-regular fa-heart section-bottom__icons-du_icon-heaer"></i>
                 <i class="fa-regular fa-eye section-bottom__icons-du_icon-eyes"></i>
               </div>
@@ -292,6 +323,9 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

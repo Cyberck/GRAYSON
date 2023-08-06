@@ -31,7 +31,7 @@
   display: none;
   justify-content: center;
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   color: var(--white-bg);
   font-family: var(--PDR);
   font-size: 25px;
@@ -48,7 +48,7 @@
   max-width: 255px;
   background: var(--bacg-color);
   width: 100%;
-  bottom: 5px;
+  bottom: 0px;
   left: 0;
   opacity: 0;
   transition: 500ms all;
@@ -94,7 +94,7 @@
   display: none;
   justify-content: center;
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   color: var(--white-bg);
   font-family: var(--PDR);
   font-size: 25px;
@@ -111,7 +111,7 @@
   max-width: 255px;
   background: var(--bacg-color);
   width: 100%;
-  bottom: 5px;
+  bottom: 0px;
   left: 0;
   opacity: 0;
   transition: 500ms all;
@@ -139,7 +139,7 @@
   display: none;
   justify-content: center;
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   color: var(--white-bg);
   font-family: var(--PDR);
   font-size: 25px;
@@ -156,7 +156,7 @@
   max-width: 255px;
   background: var(--bacg-color);
   width: 100%;
-  bottom: 5px;
+  bottom: 0px;
   left: 0;
   opacity: 0;
   transition: 500ms all;
@@ -185,7 +185,7 @@
   display: none;
   justify-content: center;
   position: absolute;
-  bottom: 5px;
+  bottom: 0px;
   color: var(--white-bg);
   font-family: var(--PDR);
   font-size: 25px;
@@ -202,7 +202,7 @@
   max-width: 255px;
   background: var(--bacg-color);
   width: 100%;
-  bottom: 5px;
+  bottom: 0px;
   left: 0;
   opacity: 0;
   transition: 500ms all;
